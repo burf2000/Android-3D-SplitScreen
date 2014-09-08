@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.path="$MODULE_DIR$/android3d" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="Android-3D" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="java-gradle" name="Java-Gradle">
+      <configuration>
+        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/build" />
+      </configuration>
+    </facet>
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":android3d" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugJava" />
+        <option name="ASSEMBLE_TEST_TASK_NAME" value="assembleDebugTest" />
+        <option name="SOURCE_GEN_TASK_NAME" value="generateDebugSources" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/android3d/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/android3d/build/intermediates/classes/debug" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/android3d">
+      <sourceFolder url="file://$MODULE_DIR$/android3d/build/generated/source/r/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/build/generated/source/aidl/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/build/generated/source/rs/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/build/generated/res/rs/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/build/generated/source/r/test/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/build/generated/source/aidl/test/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/build/generated/source/buildConfig/test/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/build/generated/source/rs/test/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/build/generated/res/rs/test/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/debug/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/main/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/androidTest/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/androidTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/android3d/src/androidTest/rs" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/coverage-instrumented-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/dex" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/dex-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/jacoco" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/javaResources" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/lint" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/ndk" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/pre-dexed" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/proguard" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/android3d/build/outputs" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="support-v4-20.0.0" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-20.0.0" level="project" />
+  </component>
+</module>
+
