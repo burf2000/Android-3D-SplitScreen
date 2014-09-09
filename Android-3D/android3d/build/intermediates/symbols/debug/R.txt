@@ -9,9 +9,6 @@ int raw rift_vs 0x7f030003
 int raw vs_basic 0x7f030004
 int raw vs_point 0x7f030005
 int string app_name 0x7f050000
-int string function_not_implemented 0x7f050001
-int string menu_enable_fov_ipd 0x7f050002
-int string menu_reset_view 0x7f050003
 int style AppBaseTheme 0x7f060000
 int style AppTheme 0x7f060001
 int style ButtonBar 0x7f060002

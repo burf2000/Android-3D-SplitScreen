@@ -5,9 +5,10 @@ A small demo based off https://github.com/sebastianherp/riftlibrary (Oculus Rift
 
 Done
 Split screen locked to landscape
-Uses Sensor.TYPE_ROTATION_VECTOR to get Gyroscope, Accelerometer amd Compass and create a rotation matrix for the scene
-
 Currently you can move forward, backwards, side to side, via touch on left screen(eye), look around on right screen.
+Now uses Google Cardboard for head tracking which improves the compatibility a lot.
+Fixed a issue that caused it to crash on devices like Samsung Galaxy S2
+
 
 Todo
 Support game controllers

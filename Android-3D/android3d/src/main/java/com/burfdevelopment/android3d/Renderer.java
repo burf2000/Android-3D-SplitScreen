@@ -5,6 +5,9 @@ import android.opengl.GLES20;
 import android.opengl.Matrix;
 import android.os.SystemClock;
 
+import com.google.vrtoolkit.cardboard.HeadTransform;
+import com.google.vrtoolkit.cardboard.sensors.HeadTracker;
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.IntBuffer;
@@ -14,7 +17,7 @@ import java.util.List;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import Utils.AndroidRotationSensor;
+//import Utils.AndroidRotationSensor;
 import Utils.Quaternion;
 
 public class Renderer implements android.opengl.GLSurfaceView.Renderer {
@@ -46,7 +49,7 @@ public class Renderer implements android.opengl.GLSurfaceView.Renderer {
     public volatile float mIPD = 1.0f;
 
     private volatile Quaternion mQuaternion = new Quaternion();
-    private AndroidRotationSensor androidSensor;
+    //private AndroidRotationSensor androidSensor;
 
     private int frameCounter = 0;
     private long frameCheckTime = 0;
@@ -55,8 +58,20 @@ public class Renderer implements android.opengl.GLSurfaceView.Renderer {
 
     private List<Shapes> mShapes = new ArrayList<Shapes>();
 
+    // cardboard
+    protected HeadTracker mHeadTracker;
+    protected HeadTransform mHeadTransform;
+    protected float[] mHeadViewMatrix;
+    //protected Matrix4 mHeadViewMatrix4;
+    //private Quaternion mCameraOrientation;
+
     public Renderer(Context context) {
         mContext = context;
+
+        mHeadTransform = new HeadTransform();
+        mHeadViewMatrix = new float[16];
+        //mHeadViewMatrix4 = new Matrix4();
+        //mCameraOrientation = new Quaternion();
     }
 
     @Override
@@ -67,10 +82,9 @@ public class Renderer implements android.opengl.GLSurfaceView.Renderer {
         GLES20.glEnable(GLES20.GL_DEPTH_TEST);
         GLES20.glDepthFunc(GLES20.GL_LEQUAL);
 
-        androidSensor = new AndroidRotationSensor(mContext);
+        //androidSensor = new AndroidRotationSensor(mContext);
 
         mScreen = new Screen(mContext);
-
         mFloor = Shapes.Floor(mContext, 1.0f).scale(SIZE_WORLD, 0.1f, SIZE_WORLD).translate(0f, -1f, 0f);
 
         mCube = Shapes.ColorCube(mContext, 1.0f).rotate(-40, 1, -1, 0).translate(0, 1.0f, 0);
@@ -92,6 +106,11 @@ public class Renderer implements android.opengl.GLSurfaceView.Renderer {
         mCamera = new Camera(Camera.PLAYER_IPD, Camera.PLAYER_EYE_HEIGHT, Camera.CAMERA_FOV, 1);
         mCamera.mPosZ = 10;
         mIPD = mCamera.getIPD();
+
+    }
+
+    public void setHeadTracker(HeadTracker headTracker) {
+        mHeadTracker = headTracker;
 
     }
 
@@ -145,35 +164,28 @@ public class Renderer implements android.opengl.GLSurfaceView.Renderer {
     }
 
     private void movePlayer() {
+
         mCamera.mYaw += mdAngleX;
         float cosAngle = (float) Math.cos(mCamera.mYaw / 180.0 * Math.PI);
         float singAngle = (float) Math.sin(mCamera.mYaw / 180.0 * Math.PI);
 
         mCamera.mPitch += mdAngleY;
 
-
         mCamera.mPosZ += cosAngle * mdPosX + singAngle * mdPosY;
         mCamera.mPosX += cosAngle * mdPosY - singAngle * mdPosX;
         mCamera.setIPD(mIPD);
 
-
         mCamera.setHeadOrientation(mQuaternion);
 
-        //Log.i("TAG", "x: " + currentX + " z " + currentZ + " y " + currentY);
+        //float orientationValues[] = new float[3];
+        //androidSensor.getNowOrientation(orientationValues);
+        //Matrix.rotateM(mCamera.mHMatrix, 0, orientationValues[0], 1, 0, 0);
+        //Matrix.rotateM(mCamera.mHMatrix, 0, orientationValues[1], 0, 0, 1);
+        //Matrix.rotateM(mCamera.mHMatrix, 0, orientationValues[2], 0, 1, 0);
 
-        float orientationValues[] = new float[3];
-        androidSensor.getNowOrientation(orientationValues);
-
-        //Log.i("TAG", "azimuth:" + orientationValues[2]);
-
-//        Log.i("TAG","pitch:" + orientationValues[0] + "\n" +
-//                "orientation:" + orientationValues[1] + "\n" +
-//                "azimuth:" + orientationValues[2]);
-
-        //
-        Matrix.rotateM(mCamera.mHMatrix, 0, orientationValues[0], 1, 0, 0);
-        Matrix.rotateM(mCamera.mHMatrix, 0, orientationValues[1], 0, 0, 1);
-        Matrix.rotateM(mCamera.mHMatrix, 0, orientationValues[2], 0, 1, 0);
+        // Use Google Cardboard
+        mHeadTracker.getLastHeadView(mHeadViewMatrix, 0);
+        Matrix.multiplyMM(mCamera.mHMatrix, 0, mHeadViewMatrix, 0, mCamera.mHMatrix, 0);
 
         if (mdFOV != 0)
             mCamera.setFOV(mCamera.getFOV() + mdFOV, mRatio);
@@ -188,7 +200,6 @@ public class Renderer implements android.opengl.GLSurfaceView.Renderer {
         float border = SIZE_WORLD / 2 - PLAYER_WIDTH;
         mCamera.mPosZ = Math.min(border, Math.max(-border, mCamera.mPosZ));
         mCamera.mPosX = Math.min(border, Math.max(-border, mCamera.mPosX));
-
 
         mCamera.update();
     }

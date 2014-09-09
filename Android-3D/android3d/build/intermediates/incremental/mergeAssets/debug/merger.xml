@@ -2,13 +2,13 @@
 <merger version="2" >
 
     <dataSet config="20.0.0" >
-        <source path="E:\Dropbox\Android-3D\android3d\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\assets" />
+        <source path="/Users/snrb/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="E:\Dropbox\Android-3D\android3d\src\main\assets" />
+        <source path="/Users/snrb/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="E:\Dropbox\Android-3D\android3d\src\debug\assets" />
+        <source path="/Users/snrb/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/debug/assets" />
     </dataSet>
 
 </merger>

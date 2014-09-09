@@ -34,9 +34,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class string {
         public static final int app_name=0x7f050000;
-        public static final int function_not_implemented=0x7f050001;
-        public static final int menu_enable_fov_ipd=0x7f050002;
-        public static final int menu_reset_view=0x7f050003;
     }
     public static final class style {
         /** 

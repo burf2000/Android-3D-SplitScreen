@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/E:/Dropbox/Android-3D/android3d/src/main/res/values-v14/styles.xml -->
+    <!-- From: file:/Users/snrb/Dropbox/Release%20Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values-v14/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
