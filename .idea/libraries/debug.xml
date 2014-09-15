@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android-3D/android3d/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-a30e4f5cd2b8d8eba2f4207e681df371b033e4ce.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Android-3D/android3d/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-5e1a630a35f558d98f8fd152111afe909015ae78.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Android-3D/android3d/build/intermediates/pre-dexed/debug/classes-a2e6add50e14c4dac324e20a1e4b1036e27f6496.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

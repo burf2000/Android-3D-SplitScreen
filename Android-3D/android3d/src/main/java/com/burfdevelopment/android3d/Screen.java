@@ -7,6 +7,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
+import java.nio.ShortBuffer;
 
 public class Screen {
 
@@ -24,7 +25,7 @@ public class Screen {
 
     private FloatBuffer _qvb;
     private FloatBuffer _qvb2;
-    private IntBuffer _qib;
+    private ShortBuffer _qib;
 
     private final Context mContext;
 
@@ -66,7 +67,7 @@ public class Screen {
                 x, -y, z, 0, 0, -1, 0.5f, 0
         };
 
-        final int _quadi[] = {0, 1, 2,
+        final short _quadi[] = {0, 1, 2,
                 2, 3, 0
         };
 
@@ -85,7 +86,7 @@ public class Screen {
 
         // index buffer
         _qib = ByteBuffer.allocateDirect(_quadi.length
-                * 4).order(ByteOrder.nativeOrder()).asIntBuffer();
+                * 4).order(ByteOrder.nativeOrder()).asShortBuffer();
         _qib.put(_quadi);
         _qib.position(0);
 
@@ -93,10 +94,12 @@ public class Screen {
         int fragmentShader = Shapes.loadShader(mContext, GLES20.GL_FRAGMENT_SHADER, R.raw.rift_ps);
 
         mProgram = GLES20.glCreateProgram();
+
         GLES20.glAttachShader(mProgram, vertexShader);
         Shapes.checkGlError("glAttachShader");
         GLES20.glAttachShader(mProgram, fragmentShader);
         Shapes.checkGlError("glAttachShader");
+
         GLES20.glLinkProgram(mProgram);
         Shapes.checkGlError("glLinkProgram");
 
@@ -161,7 +164,7 @@ public class Screen {
             GLES20.glEnableVertexAttribArray(GLES20.glGetAttribLocation(mProgram, "aPosition"));
 
             renderDistortedEye(-0.25f, 0.0f, 0.0f, 0.5f, 1.0f);
-            GLES20.glDrawElements(GLES20.GL_TRIANGLES, 6, GLES20.GL_UNSIGNED_INT, _qib);
+            GLES20.glDrawElements(GLES20.GL_TRIANGLES, 6, GLES20.GL_UNSIGNED_SHORT, _qib);
             GLES20.glFlush();
         } else {
             // texture coordinates
@@ -178,7 +181,7 @@ public class Screen {
 
             // Draw with indices
             renderDistortedEye(0.25f, 0.5f, 0.0f, 0.5f, 1.0f);
-            GLES20.glDrawElements(GLES20.GL_TRIANGLES, 6, GLES20.GL_UNSIGNED_INT, _qib);
+            GLES20.glDrawElements(GLES20.GL_TRIANGLES, 6, GLES20.GL_UNSIGNED_SHORT, _qib);
             GLES20.glFlush();
         }
 

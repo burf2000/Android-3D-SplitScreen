@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.bda.controller">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android3d/libs/com.bda.controller.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

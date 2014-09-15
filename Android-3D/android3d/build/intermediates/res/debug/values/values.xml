@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/E:/Dropbox/Android-3D/android3d/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/simon/Dropbox/Release%20Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values/colors.xml -->
     <eat-comment />
 
     <color name="black_overlay">#66000000</color>
-    <!-- From: file:/E:/Dropbox/Android-3D/android3d/src/main/res/values/attrs.xml -->
+    <!-- From: file:/Users/simon/Dropbox/Release%20Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values/attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="ButtonBarContainerTheme">
         <attr name="buttonBarStyle" format="reference" />
         <attr name="buttonBarButtonStyle" format="reference" />
     </declare-styleable>
-    <!-- From: file:/E:/Dropbox/Android-3D/android3d/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/simon/Dropbox/Release%20Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values/strings.xml -->
     <eat-comment />
 
-    <string name="app_name">Riftlib Sample</string>
-    <string name="function_not_implemented">Not implemented yet</string>
-    <string name="menu_enable_fov_ipd">Enable FOV/IPD changes</string>
-    <string name="menu_reset_view">Reset View</string>
-    <!-- From: file:/E:/Dropbox/Android-3D/android3d/src/main/res/values/styles.xml -->
+    <string name="app_name">Android 3D</string>
+    <!-- From: file:/Users/simon/Dropbox/Release%20Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">

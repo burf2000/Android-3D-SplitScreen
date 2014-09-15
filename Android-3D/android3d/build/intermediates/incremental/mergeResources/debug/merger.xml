@@ -2,62 +2,472 @@
 <merger version="2" >
 
     <dataSet config="20.0.0" >
-        <source path="E:\Dropbox\Android-3D\android3d\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res" />
+        <source path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/res" />
     </dataSet>
     <dataSet config="main" >
-        <source path="E:\Dropbox\Android-3D\android3d\src\main\res" >
+        <source path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res" >
+            <file
+                name="back"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/back.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bottom"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/bottom.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="brick_large_blocks0025_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/brick_large_blocks0025_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="brick_large_blocks0026_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/brick_large_blocks0026_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bronze_copper0016_5_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/bronze_copper0016_5_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="buildings_tall_house0116_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/buildings_tall_house0116_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concreate2"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concreate2.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_floors0005_4_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_floors0005_4_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_floors0005_5_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_floors0005_5_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_floors0039_2_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_floors0039_2_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_floors0048_7_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_floors0048_7_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_floors0065_9_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_floors0065_9_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_floors0078_5_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_floors0078_5_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_plates"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_plates.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_plates0002_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_plates0002_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_plates0004_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_plates0004_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_plates0048_2_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_plates0048_2_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_plates0078_7_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_plates0078_7_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_plates0097_23_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_plates0097_23_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_plates0116_2_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_plates0116_2_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="concrete_plates0138_5_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/concrete_plates0138_5_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="floors_regular0299_9_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/floors_regular0299_9_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="floors_regular0301_2_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/floors_regular0301_2_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="floors_regular0310_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/floors_regular0310_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="front"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/front.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="happy_blushingface_female"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/happy_blushingface_female.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="happy_blushingface_male"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/happy_blushingface_male.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="happy_grinningface_female"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/happy_grinningface_female.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="happy_grinningface_male"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/happy_grinningface_male.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="happy_smileyface_female"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/happy_smileyface_female.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="happy_smileyface_male"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/happy_smileyface_male.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="high_rise_glass0109_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/high_rise_glass0109_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="high_rise_night0007_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/high_rise_night0007_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="high_rise_night0007_2_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/high_rise_night0007_2_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="high_rise_night0008_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/high_rise_night0008_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="high_rise_night0008_2_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/high_rise_night0008_2_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="high_rise_night0009_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/high_rise_night0009_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="high_rise_night0023_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/high_rise_night0023_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="high_rise_night0048_7_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/high_rise_night0048_7_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="high_rise_night0058_2_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/high_rise_night0058_2_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="left"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/left.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="metal_floors_rusted0029_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/metal_floors_rusted0029_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="metal_floors_rusted0037_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/metal_floors_rusted0037_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="metal_floors_rusted0048_2_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/metal_floors_rusted0048_2_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="metal_floors_rusted0051_2_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/metal_floors_rusted0051_2_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="metal_floors_rusted0053_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/metal_floors_rusted0053_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="metal_floors_rusted0057_1_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/metal_floors_rusted0057_1_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="metal_floors_rusted0064_5_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/metal_floors_rusted0064_5_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="metal_galvanized0014_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/metal_galvanized0014_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="metal_rollup0117_5_s"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/metal_rollup0117_5_s.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="night_back"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/night_back.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="night_bottom"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/night_bottom.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="night_front"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/night_front.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="night_left"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/night_left.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="night_right"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/night_right.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="night_skybox_readme"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/night_skybox_readme.txt"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="night_top"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/night_top.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="noisy_grass_public_domain"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/noisy_grass_public_domain.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="right"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/right.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="sky"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/sky.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skybox_readme"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skybox_readme.txt"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile1"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile1.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_blue1"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_blue1.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_blue2"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_blue2.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_blue3"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_blue3.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_blue4"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_blue4.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_white1"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_white1.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_white2"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_white2.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_white3"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_white3.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_white4"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_white4.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_yellow1"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_yellow1.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_yellow2"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_yellow2.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_yellow3"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_yellow3.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skyscraper_tile_yellow4"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/skyscraper_tile_yellow4.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="stone_wall_public_domain"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/stone_wall_public_domain.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="top"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable/top.png"
+                qualifiers=""
+                type="drawable" />
             <file
                 name="ic_launcher"
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\drawable-hdpi\ic_launcher.png"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\drawable-mdpi\ic_launcher.png"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\drawable-xhdpi\ic_launcher.png"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
+                name="per_pixel_fragment_shader_tex_and_light"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/per_pixel_fragment_shader_tex_and_light.glsl"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="per_pixel_vertex_shader_tex_and_light"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/per_pixel_vertex_shader_tex_and_light.glsl"
+                qualifiers=""
+                type="raw" />
+            <file
                 name="ps_basic"
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\raw\ps_basic.txt"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/ps_basic.txt"
                 qualifiers=""
                 type="raw" />
             <file
                 name="ps_point"
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\raw\ps_point.txt"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/ps_point.txt"
                 qualifiers=""
                 type="raw" />
             <file
                 name="rift_ps"
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\raw\rift_ps.txt"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/rift_ps.txt"
                 qualifiers=""
                 type="raw" />
             <file
                 name="rift_vs"
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\raw\rift_vs.txt"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/rift_vs.txt"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="simple_fragment_shader"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/simple_fragment_shader.glsl"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="simple_vertex_shader"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/simple_vertex_shader.glsl"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="skybox_fragment_shader"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/skybox_fragment_shader.glsl"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="skybox_vertex_shader"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/skybox_vertex_shader.glsl"
                 qualifiers=""
                 type="raw" />
             <file
                 name="vs_basic"
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\raw\vs_basic.txt"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/vs_basic.txt"
                 qualifiers=""
                 type="raw" />
             <file
                 name="vs_point"
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\raw\vs_point.txt"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/raw/vs_point.txt"
                 qualifiers=""
                 type="raw" />
             <file
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\values\attrs.xml"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values/attrs.xml"
                 qualifiers="" >
                 <declare-styleable name="ButtonBarContainerTheme" >
                     <attr
@@ -69,35 +479,20 @@
                 </declare-styleable>
             </file>
             <file
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\values\colors.xml"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values/colors.xml"
                 qualifiers="" >
                 <color name="black_overlay" >#66000000
                 </color>
             </file>
             <file
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\values\strings.xml"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values/strings.xml"
                 qualifiers="" >
-                <string name="function_not_implemented" >Not implemented yet
-                </string>
-                <string name="menu_reset_view" >Reset View
-                </string>
-                <string name="menu_enable_fov_ipd" >Enable FOV/IPD changes
-                </string>
-                <string name="app_name" >Riftlib Sample
+                <string name="app_name" >Android 3D
                 </string>
             </file>
             <file
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\values\styles.xml"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values/styles.xml"
                 qualifiers="" >
-
-                <style
-                    name="AppTheme"
-                    parent="AppBaseTheme" >
-
-                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-                </style>
-
-                <style name="ButtonBarButton" />
 
                 <style name="ButtonBar" >
                     <item name="android:paddingLeft">
@@ -118,6 +513,17 @@
                 </style>
 
                 <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
                     name="FullscreenTheme"
                     parent="android:Theme.NoTitleBar" >
                     <item name="android:windowContentOverlay">
@@ -134,19 +540,17 @@
                     </item>
                 </style>
 
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Light" >
+                <style name="ButtonBarButton" />
 
-                    <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-                    -->
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
                 </style>
             </file>
             <file
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\values-v11\styles.xml"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -170,22 +574,22 @@ true
                 </style>
 
                 <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light" >
-
-                    <!-- API 11 theme customizations can go here. -->
-                </style>
-
-                <style
                     name="FullscreenActionBarStyle"
                     parent="android:Widget.Holo.ActionBar" >
                     <item name="android:background">
 @color/black_overlay
                     </item>
                 </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
             </file>
             <file
-                path="E:\Dropbox\Android-3D\android3d\src\main\res\values-v14\styles.xml"
+                path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/main/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -196,11 +600,11 @@ true
                 </style>
             </file>
         </source>
-        <source path="E:\Dropbox\Android-3D\android3d\build\generated\res\rs\debug" />
-        <source path="E:\Dropbox\Android-3D\android3d\build\generated\res\generated\debug" />
+        <source path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/generated/res/rs/debug" />
+        <source path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/generated/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="E:\Dropbox\Android-3D\android3d\src\debug\res" />
+        <source path="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/src/debug/res" />
     </dataSet>
 
 </merger>

@@ -20,4 +20,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:20.0.0'
+    compile files('libs/cardboard.jar')
+    compile files('libs/com.bda.controller.jar')
 }

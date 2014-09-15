@@ -31,7 +31,9 @@ public class AndroidRotationSensor implements SensorEventListener {
     private float mRotationMatrix[] = new float[16];
     private float orientationVals[] = new float[3];
 
-    //static final float ALPHA = 0.20f;
+    private float old[] = new float[3];
+
+    static final float ALPHA = 0.20f;
 
     public AndroidRotationSensor(Context context) {
         sensorManager = (SensorManager) context.getSystemService(context.SENSOR_SERVICE);
@@ -72,16 +74,24 @@ public class AndroidRotationSensor implements SensorEventListener {
         int type = event.sensor.getType();
 
         //Log.i("TAG", "Sensor " + type);
-//TODO http://stackoverflow.com/questions/7598574/how-to-improve-accuracy-of-accelerometer-and-compass-sensors
-        //todo http://stackoverflow.com/questions/6911900/android-remove-gravity-from-accelerometer-readings/6912977#6912977
 
         // It is good practice to check that we received the proper sensor event
         if (event.sensor.getType() == Sensor.TYPE_ROTATION_VECTOR) {
             //lowPass( event.values.clone(), MagneticFieldValues_last );
 
+//            old[0] = event.values[0];
+//            old[1] = event.values[1];
+//            old[2] = event.values[2];
+//
+//            float new1[] = new float[3];
+//
+//            lowPass(old, new1);
+
+            //TODO https://github.com/tvbarthel/ChaseWhisplyProject/blob/master/ChaseWhisply/src/main/java/fr/tvbarthel/games/chasewhisply/ARActivity.java
+
             // Convert the rotation-vector to a 4x4 matrix.
             SensorManager.getRotationMatrixFromVector(mRotationMatrix,
-                    event.values);
+                    event.values.clone());
 
             SensorManager.remapCoordinateSystem(mRotationMatrix, SensorManager.AXIS_Y, SensorManager.AXIS_MINUS_X, mRotationMatrix);
             SensorManager.getOrientation(mRotationMatrix, orientationVals);
@@ -114,14 +124,14 @@ public class AndroidRotationSensor implements SensorEventListener {
         return true;
     }
 
-//    protected float[] lowPass( float[] input, float[] output ) {
-//        if ( output == null ) return input;
-//
-//        for ( int i=0; i<input.length; i++ ) {
-//            output[i] = output[i] + ALPHA * (input[i] - output[i]);
-//        }
-//        return output;
-//    }
+    protected float[] lowPass( float[] input, float[] output ) {
+        if ( output == null ) return input;
+
+        for ( int i=0; i<input.length; i++ ) {
+            output[i] = output[i] + ALPHA * (input[i] - output[i]);
+        }
+        return output;
+    }
 //
 //	public void swapAxes() {
 //		axisSwapper*=-1;

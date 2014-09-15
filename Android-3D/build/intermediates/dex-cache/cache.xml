@@ -2,22 +2,34 @@
 <pre-dex-items>
 
     <item
-        dex="E:\Dropbox\Android-3D\android3d\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-5e1a630a35f558d98f8fd152111afe909015ae78.jar"
-        jar="E:\Dropbox\Android-3D\android3d\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        dex="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/intermediates/pre-dexed/debug/classes-28faeef825ae18b3316470714a0b53a6f8073c71.jar"
+        jar="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
     <item
-        dex="E:\Dropbox\Android-3D\android3d\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-a30e4f5cd2b8d8eba2f4207e681df371b033e4ce.jar"
-        jar="C:\Program Files\Android Studio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        dex="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
     <item
-        dex="E:\Dropbox\Android-3D\android3d\build\intermediates\pre-dexed\debug\classes-a2e6add50e14c4dac324e20a1e4b1036e27f6496.jar"
-        jar="E:\Dropbox\Android-3D\android3d\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        dex="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/intermediates/pre-dexed/debug/com.bda.controller-b2163b391981481cfbb225a53680dadb38b32410.jar"
+        jar="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/libs/com.bda.controller.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+        sha1="1184ecfb98d4b99f3774adb230dcd6e0553e706b"/>
+    <item
+        dex="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/intermediates/pre-dexed/debug/cardboard-504c7d42ab0f6cc4ceac96bf0c3cb487f3a57b3f.jar"
+        jar="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/libs/cardboard.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7800973ef52ae629978ad974370b6a0b9bc79e25"/>
+    <item
+        dex="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-df4abe7d59ec64cb2b814326bfc4551ec59c857c.jar"
+        jar="/Users/simon/Dropbox/Release Game/Android/Android-3D-SplitScreen/Android-3D/android3d/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
 
 </pre-dex-items>
