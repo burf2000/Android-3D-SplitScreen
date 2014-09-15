@@ -9,8 +9,9 @@ Uses Sensor.TYPE_ROTATION_VECTOR to get Gyroscope, Accelerometer amd Compass and
 
 Currently you can move forward, backwards, side to side, via touch on left screen(eye), look around on right screen.
 
+Supports MOGA controller
+
 Todo
-Support game controllers
 Create a more impressive demo
 
 Code based off  https://github.com/sebastianherp/riftlibrary
